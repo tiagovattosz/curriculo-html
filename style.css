@@ -1,0 +1,160 @@
+/* Definindo estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Seções */
+  section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+  }
+  
+  /* Experiência */
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 15px;
+  }
+  
+  ul li h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  ul li p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Contato */
+  section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  section ul li a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tecnologias */
+  dl dt {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 10px;
+  }
+  
+  dl dd {
+    margin-left: 20px;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Educação */
+  ul h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  ul ul {
+    list-style: none;
+    padding-left: 15px;
+  }
+  
+  ul ul li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  /* Rodapé (opcional) */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Estilização responsiva */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header h2 {
+      font-size: 1.3rem;
+    }
+  
+    section h2 {
+      font-size: 1.3rem;
+    }
+  
+    ul li h3 {
+      font-size: 1.1rem;
+    }
+  
+    ul li p, dl dd {
+      font-size: 0.9rem;
+    }
+  }
+  
